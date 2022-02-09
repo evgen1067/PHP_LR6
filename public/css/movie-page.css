@@ -1,0 +1,40 @@
+body{
+    color: #0D7460;
+}
+
+.row>*{
+    padding: 0;
+}
+
+.container{
+    box-shadow: none;
+}
+
+#outImage_1, #outImage_2{
+    width: 100%;
+    border: 1px solid #0D7460;
+}
+
+.input-group-text, .form-control{
+    color: #0D7460;
+    background-color: #1f1f1f;
+    border: 1px solid #29B297;
+}
+
+.form-text{
+    color: #29B297;
+}
+
+.btn-dark{
+    width: 100%;
+    color: #0D7460;
+    background: transparent;
+    border-color: #29B297;
+}
+
+.btn-dark:hover{
+    color: #0D7460;
+    border-color: #29B297;
+    background: #29B297;
+    box-shadow: 0 0 10px #29B297, 0 0 40px #29B297, 0 0 80px #29B297;
+}

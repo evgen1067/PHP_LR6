@@ -1,0 +1,57 @@
+index:
+  path: /
+  controller: App\Controller\MainController::homepage
+  methods:    GET
+detailpage:
+  path: /detail_page
+  controller: App\Controller\MainController::detailpage
+  methods:    GET
+addpage:
+  path: /add_page
+  controller: App\Controller\MainController::addpage
+  methods:    GET
+showmore:
+  path: /show_more
+  controller: App\Controller\MainController::showmore
+  methods:    GET
+allcomments:
+  path: /all_comments
+  controller: App\Controller\MainController::all_comments
+  methods:    GET
+search:
+  path: /search
+  controller: App\Controller\MainController::search
+  methods:    GET
+authorization:
+  path: /authorization
+  controller: App\Controller\MainController::logInUser
+  methods:    GET
+checklog:
+  path: /check_log
+  controller: App\Controller\MainController::checkUserAuthorization
+  methods:    GET
+logout:
+  path: /logout
+  controller: App\Controller\MainController::logOutUser
+  methods:    GET
+profile:
+  path: /profile
+  controller: App\Controller\MainController::profileUserInfo
+  methods:    GET
+deletecomment:
+  path: /delete_comment
+  controller: App\Controller\MainController::deleteComments
+  methods:    GET
+addcomment:
+  path: /add_comment
+  controller: App\Controller\MainController::addComments
+  methods:    GET
+addoverview:
+  path: /add_overview
+  controller: App\Controller\MainController::addOverview
+  methods: GET
+signup:
+  path: /sign_up
+  controller: App\Controller\MainController::signUpUser
+  methods: GET
+
